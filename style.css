@@ -1,27 +1,33 @@
- 
 html {
-font-family: Raleway; src: "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+  font-family: Raleway;
+  src: 'https://fonts.googleapis.com/css?family=Raleway&display=swap';
 }
 .btn-dark {
-    border-color: red;
+  border-color: red;
 }
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link .navbar-toggler-icon {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .navbar-toggler {
-    background-color: white;
-    border: border-width solid red; 
+  background-color: white;
+  border: border-width solid red;
 }
 #linkedin {
-image-rendering: auto;
+  image-rendering: auto;
+}
+div,
+.card {
+  align-content: center;
+  justify-content: stretch;
+  text-align: center;
 }
