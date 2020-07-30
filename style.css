@@ -2,9 +2,11 @@ html {
   font-family: Raleway;
   src: 'https://fonts.googleapis.com/css?family=Raleway&display=swap';
 }
+
 .btn-dark {
   border-color: red;
 }
+
 .navbar-custom .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -22,12 +24,25 @@ html {
   background-color: white;
   border: border-width solid red;
 }
+
 #linkedin {
   image-rendering: auto;
 }
+
 div,
 .card {
   align-content: center;
   justify-content: stretch;
   text-align: center;
+}
+
+a {
+  color: black;
+
+}
+
+
+img {
+  height: auto;
+  max-width: 100;
 }
